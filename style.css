@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* universal, type, id, class  */
+/* Combination selectors*/
+
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+section>div {
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+img {
+    height: 70% ;
+}
+
+div:nth-child(2n-1){
+    background-color: lightgreen;
+}
+
+/* :first-child :last-child :nth-child() :nth-child() */
